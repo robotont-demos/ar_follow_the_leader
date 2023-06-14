@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ar_fllow_the_leader)/config/robotont_show_ar.rviz" output="screen" />
+</launch>
